@@ -1,5 +1,13 @@
 import styled from 'styled-components';
 
+export const RouterDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: auto;
+  max-width: 100vw;
+`;
+
 export const HeaderDiv = styled.div`
   display: flex;
   justify-content: space-between;
@@ -8,8 +16,6 @@ export const HeaderDiv = styled.div`
   padding-right: 4rem;
   background: #000000;
   color: #ffffff;
-  width: auto;
-  max-width: 100vw;
   height: 6rem;
   border-bottom: 0.3rem solid #ffb703;
 
